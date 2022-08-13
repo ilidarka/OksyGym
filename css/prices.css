@@ -29,6 +29,7 @@
 .prices .price-box {
     margin-top: 65px;
     gap: 50px;
+    z-index: 10;
 }
 .prices .title {
     margin-top: 75px;
@@ -85,5 +86,15 @@
         padding-right: 50px;
         height: auto;
         padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 800px){
+    .table-row--top .table-item:nth-child(2) {
+        border-radius: 0 !important;
+    }
+}
+@media screen and (max-width: 800px){
+    .table-row--bottom .table-item:nth-child(2) {
+        border-radius: 0 !important;
     }
 }
