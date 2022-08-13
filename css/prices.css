@@ -1,7 +1,7 @@
 .pricessBody {
-    background-image: url("./img/pricesBackground.png");
+    background-image: url("../img/pricesBackground.png") !important;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .prices .stock-bottom-text {
     font-family: 'Manrope';
