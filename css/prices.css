@@ -34,12 +34,20 @@
     margin-top: 75px;
     margin-bottom: 55px;
 }
+.prices .tableContainer {
+    max-width: 503px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
 .prices .table-wrapper {
     margin-bottom: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+.prices .table-row {
+    justify-content: center;
 }
 .second .stock-bottom-text {
     margin-top: 5px;
@@ -59,5 +67,23 @@
 }
 .third .contacts-content {
     padding-left: 325px;
-    padding-top: 127px;
+}
+@media (max-width: 580px) {
+    .prices .stock-bottom-text {
+        font-size: 2em;
+    }
+    .prices .prices-smalltext {
+        font-size: 1.5em;
+    }
+    .prices .prices-small img {
+        width: 2em;
+    }
+}
+@media (max-width: 991px) {
+    .third .contacts-content {
+        padding-left: 50px;
+        padding-right: 50px;
+        height: auto;
+        padding-bottom: 60px;
+    }
 }
