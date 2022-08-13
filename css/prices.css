@@ -1,5 +1,5 @@
 .pricessBody {
-    background-image: url("/img/pricesBackground.png");
+    background-image: url("./img/pricesBackground.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -88,12 +88,12 @@
         padding-bottom: 60px;
     }
 }
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
     .table-row--top .table-item:nth-child(2) {
         border-radius: 0 !important;
     }
 }
-@media screen and (max-width: 800px){
+@media (max-width: 800px){
     .table-row--bottom .table-item:nth-child(2) {
         border-radius: 0 !important;
     }
