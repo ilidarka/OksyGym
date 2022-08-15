@@ -40,13 +40,13 @@
     margin-top: 75px;
     margin-bottom: 55px;
 }
-.prices .tableContainer {
+.tableContainer {
     max-width: 503px;
     width: 100%;
     display: flex;
     margin: 0 auto;
 }
-.prices .table-wrapper {
+.table-wrapper {
     margin-bottom: 0;
     width: 100%;
     display: flex;
