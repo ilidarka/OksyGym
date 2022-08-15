@@ -3,6 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.prices .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .prices .stock-bottom-text {
     font-family: 'Manrope';
     font-style: normal;
@@ -68,6 +73,9 @@
 }
 .third .contacts-content {
     padding-left: 325px;
+}
+.prices .customButton {
+    margin-top: 40px;
 }
 @media (max-width: 580px) {
     .prices .stock-bottom-text {
