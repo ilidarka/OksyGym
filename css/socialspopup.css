@@ -5,16 +5,21 @@
 #menu-bar {
     width: 45px;
     height: 40px;
-    top: 95vh;
-    right: 3vw;
+    top: 80vh;
+    right: 5vw;
     cursor: pointer;
     position: fixed; 
     z-index: 1000; 
 }
+#menu-bar img {
+    max-width: none;
+    width: 100px;
+    height: 100px;
+}
 .bar {
     height: 5px;
     width: 100%;
-    background-color: #C41DFF;
+    background-color: none;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -80,13 +85,14 @@
 .change #bar2 {
     opacity: 0;
 }
+.change img {
+    opacity: 0;
+}
 .change #bar3 {
     transform: translateY(-6px) rotateZ(45deg);
 }
 .change-bg {
     width: 520px;
     height: 460px;
-    transform: translate(60%,30%);
-    top: 35vh;
-    left: 40vw;
+    transform: translate(70vw,50vh);
 }
