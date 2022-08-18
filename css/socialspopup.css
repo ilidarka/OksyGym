@@ -64,7 +64,6 @@
     z-index: 1000;
     width: 0;
     height: 0;
-    background: linear-gradient(to right, #7775E7, #C41DFF);
     border-radius: 50%;
     position: fixed;
     transition: all 0.3s;
