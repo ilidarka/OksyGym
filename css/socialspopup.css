@@ -1,6 +1,7 @@
 #menu {
     z-index: 9999;
     position: fixed;
+    position: relative;
 }
 #menu-bar {
     width: 45px;
@@ -22,17 +23,17 @@
     background-color: none;
     display: block;
     border-radius: 5px;
-    transition: 0.3s ease;
     z-index: 1000;
 }
 #bar1 {
     transform: translateY(-4px);
+    position: absolute;
 }
 #bar3 {
     transform: translateY(4px);
+    position: absolute;
 }
 .nav {
-    transition: 0.3s ease;
     position: fixed;
     display: none;
 }
@@ -58,7 +59,6 @@
     left: 0;
     position: absolute;
     z-index: 10000;
-
 }
 .menu-bg {
     z-index: 1000;
@@ -67,7 +67,6 @@
     margin: 30px 0 20px 40px;
     background: linear-gradient(to right, #7775E7, #C41DFF);
     border-radius: 50%;
-    transition: 0.3s ease;
     position: fixed;
 }
 .change {
@@ -75,12 +74,13 @@
     position: fixed;
     top: 60vh;
     right: 10vw;
+    z-index: 9999;
 }
 .change .bar {
     background-color: black;
 }
 .change #bar1 {
-    transform: translateY(4px) rotateZ(-45deg);
+    transform: translateY(-4px) rotateZ(-45deg);
 }
 .change #bar2 {
     opacity: 0;
@@ -94,5 +94,7 @@
 .change-bg {
     width: 520px;
     height: 460px;
-    transform: translate(70vw,50vh);
+    position: absolute;
+    top: -255px;
+    left: -365px;
 }
