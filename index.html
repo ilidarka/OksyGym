@@ -60,7 +60,7 @@
 	<header>
 		<div class="container">
 			<div style="margin-top: -20px;" class="header-wrapper">
-				<div class="logo">
+				<div class="logo" style="margin-top: 20px;">
 					<a href="/index.html"><img src="img/logo.svg" alt="Gymnastics by Oksy Mathews"></a>
 				</div>
 				<div class="header-content">
@@ -77,6 +77,14 @@
 										align-items: flex-end;
 									}
 								}
+                                @media (max-width: 574px) {
+                                	.club-title2 {
+                                  		margin-top: -95px;
+                                  	}
+									.group-section .container {
+                                    	margin-top: 150px;  
+                                    }
+                                }
 							</style>
 							<li><a href="#advantages-section">Наши преимущества</a></li>
 							<li><a href="#about-section">О тренерах</a></li>
@@ -84,7 +92,7 @@
 							<li><a class="menu-stock" href="stock.html">Акции</a></li>
 							<li><a class="menu-stock" href="prices.html">Цены</a></li>
 						</ul>
-						<a style="color: #C41DFF;width: 100%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px;" href="https://yandex.ru/maps/-/CCURbYBlgB">Москва, Улица Крылатская владение 2 строение 5</a>	
+						<a style="color: #C41DFF;width: 60%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px; text-align: center;" href="https://yandex.ru/maps/-/CCURbYBlgB">Москва, Улица Крылатская владение 2 строение 5</a>	
 					</div>
 					<div class="header-info" style=" text-align: center;">
 						<div class="header-info_tel" style="display: flex;">
@@ -166,7 +174,7 @@
 
 
 	<section class="group-section">
-		<div class="container">
+		<div class="container" >
 			<div class="group-title2 title animate__backInRight wow animate__animated">
 				<h2>Учебно-тренировочные группы</h2>
 			</div>
@@ -359,6 +367,17 @@
 						.price-item {
 							height: 300px;
 						}
+                        .navBarContainer {
+                        	display: flex;
+                          	flex-direction: column;
+                          	align-items: center;
+                        }
+                      	#menu-bar {
+                        	top: 73vh;
+                        }
+                        .header-info {
+                        	margin-bottom: 100px;
+                        }
 					}
 					@media screen and (max-width: 800px) {
 						.customSize {

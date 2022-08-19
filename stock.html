@@ -43,25 +43,24 @@
 <body class="main-body">
 	<div id="menu">
 		<div id="menu-bar" onclick="menuOnClick()">
-			<div class="menu-bg" id="menu-bg"></div>
+			<div class="menu-bg" id="menu-bg">
+				<nav class="nav" id="nav" style="width: 100%; height: 100%; position: relative;">
+					<a href="https://t.me/oksy_mathews"><img style="opacity: 1; position: absolute; max-width: none; width: 115px; top: 60px; right: 120px;" src="./img/Telegram.svg" alt="telIcon"></a>
+					<a href="https://wa.me/79684995533"><img style="opacity: 1; position: absolute; max-width: none; width: 115px; top: 120px; right: 275px;" src="./img/WhatsApp.svg" alt="whatsappIcon"></a>
+					<a href="https://vk.me/-206330125"><img style="opacity: 1; position: absolute; max-width: none; width: 115px; top: 270px; right: 320px;" src="./img/VK.svg" alt="vkIcon"></a>
+				</nav> 
+			</div>
 			<img src="./img/messagepopup.png" alt="messagepopup">
 			<div id="bar1" class="bar"></div>
 			<div id="bar2" class="bar"></div>
 			<div id="bar3" class="bar"></div>
 		</div>
-		<nav class="nav" id="nav">
-			<ul>
-			  <li><a href="https://vk.com/gymnasticsbyoksymathews"><img style="opacity: 1; position: absolute; right: 20px; bottom: 70px;" src="./img/telIcon.png" alt="telIcon"></a></li>
-			  <li><a href="https://vk.com/gymnasticsbyoksymathews"><img style="opacity: 1; position: absolute; right: 170px; bottom: -30px;" src="./img/telIcon.png" alt="telIcon"></a></li>
-			  <li><a href="https://vk.com/gymnasticsbyoksymathews"><img style="opacity: 1; position: absolute; right: 80px; bottom: -150px;" src="./img/telIcon.png" alt="telIcon"></a></li>
-			</ul>
-		  </nav> 
 	</div>
 
 	<header>
 		<div class="container">
 			<div style="margin-top: -20px;" class="header-wrapper">
-				<div class="logo">
+				<div class="logo" style="margin-top: 20px;">
 					<a href="/index.html"><img src="img/logo.svg" alt="Gymnastics by Oksy Mathews"></a>
 				</div>
 				<div class="header-content">
@@ -78,14 +77,27 @@
 										align-items: flex-end;
 									}
 								}
+               					@media screen and (max-width: 991px){
+                                    .navBarContainer {
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    #menu-bar {
+                                        top: 73vh;
+                                    }
+                                    .header-info {
+                        				margin-bottom: 100px;
+                        			}
+                                }
 							</style>
-							<li><a href="index.html#advantages-section">Наши преимущества</a></li>
-							<li><a href="index.html#about-section">О тренерах</a></li>
-							<li><a href="index.html#contacts-section">Контакты</a></li>
+							<li><a href="#advantages-section">Наши преимущества</a></li>
+							<li><a href="#about-section">О тренерах</a></li>
+							<li><a href="#contacts-section">Контакты</a></li>
 							<li><a class="menu-stock" href="stock.html">Акции</a></li>
 							<li><a class="menu-stock" href="prices.html">Цены</a></li>
 						</ul>
-						<a style="color: #C41DFF;width: 100%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px;" href="https://yandex.ru/maps/-/CCURbYBlgB">Москва, Улица Крылатская владение 2 строение 5</a>	
+						<a style="color: #C41DFF;width: 60%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px; text-align: center;" href="https://yandex.ru/maps/-/CCURbYBlgB">Москва, Улица Крылатская владение 2 строение 5</a>		
 					</div>
 					<div class="header-info" style=" text-align: center;">
 						<div class="header-info_tel" style="display: flex;">
@@ -234,6 +246,7 @@
 	<!-- Magnific Popup JS -->
 	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<!-- Базовые скрипты javascript -->
+  	<script src="js/socialspopupscript.js"></script>
 	<script>
 		if(document.documentElement.clientWidth < 991) {
 			$('.header-burger').on('click', function(){
