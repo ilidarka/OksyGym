@@ -1,0 +1,105 @@
+.customAboutUs {
+    background: url("../img/aboutUsBackground.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.customAboutUs .container {
+    position: relative;
+}
+.customAboutUs .sliderImage {
+    width: 30%;
+}
+.customAboutUs .aboutUsSliderContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customAboutUs .mySlides {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    gap: 40px;
+}
+.customAboutUs .mySlides .slideTop, .customAboutUs .mySlides .slideBottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.customAboutUs .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 27px 22px;
+    border: 1px solid #7775E74D;
+    border-radius: 15px;
+}
+.customAboutUs .text span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+    opacity: 0.85;
+}
+.customAboutUs .text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    opacity: 0.85;
+}
+.customAboutUs .sliderButtons {
+    position: absolute;
+    bottom: -45px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+@media (max-width: 991px) {
+    .comments-section {
+        padding-bottom: 40px !important;
+    }
+    .customAboutUs {
+        margin-bottom: 300px;
+    }
+    .customAboutUs .container {
+        max-width: 90%;
+    }
+    .customAboutUs .mySlides .slideTop, .customAboutUs .mySlides .slideBottom {
+        gap: 20px;
+    }
+    .customAboutUs .mySlides {
+        padding-left: 0;
+    }
+}
+@media (max-width: 801px) {
+    .customAboutUs .container {
+        max-width: 90%;
+    }
+    .customAboutUs {
+        margin-bottom: 150px;
+    }
+    .customAboutUs .mySlides .slideTop, .customAboutUs .mySlides .slideBottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .customAboutUs .sliderImage {
+        width: 40%;
+    }
+    .customAboutUs .sliderButtons {
+        bottom: -60px;
+    }
+}
