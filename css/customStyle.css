@@ -102,4 +102,7 @@
     .customAboutUs .sliderButtons {
         bottom: -60px;
     }
+    .customAboutUs .aboutUsSliderContainer {
+        flex-direction: column;
+    }
 }
