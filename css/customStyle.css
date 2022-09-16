@@ -106,3 +106,9 @@
         flex-direction: column;
     }
 }
+.inputArea {
+    margin-bottom: 30px;
+}
+.inputArea .fileUploadInput #file-upload-button {
+    border: none;
+}

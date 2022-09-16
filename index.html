@@ -1256,7 +1256,7 @@
 
 	<!-- Попапы -->
 	<div class="hidden">
-		<div class="popup-wrapper" id="popup-wrapper">
+		<form class="popup-wrapper" id="popup-wrapper" method="POST" action="feedback.php">
 			<div class="popup-close">
 				<img src="img/popup-close.png">
 			</div>
@@ -1264,20 +1264,28 @@
 				Оставьте отзыв о нашем клубе!
 			</div>
 			<div class="popup-field popup-name">
-				<input type="text" placeholder="Ваше имя" required>
+				<input type="text" placeholder="Ваше имя" required name="user_name">
 			</div>
 			<div class="popup-field popup-comment">
-				<textarea placeholder="Ваше сообщение"></textarea required>
+				<textarea placeholder="Ваше сообщение" required name="user_text"></textarea>
+			</div>
+			<div class="inputArea">
+				<label for="fileUploadInput">
+					<input class="customInput" id="fileUploadInput" type="file" name="img" accept="image/*">
+				</label>
 			</div>
 			<div class="checkbox-wrapper">
 				<input type="checkbox" id="checkbox1" required value="">
-				<label for="checkbox1"><span>Я согласен на обработку персональных данных 
-и согласен с политикой конфиденциальности данного сайта.</span></label>
+				<label for="checkbox1">
+					<span>Я согласен на обработку персональных данных 
+						и согласен с политикой конфиденциальности данного сайта.
+					</span>
+			</label>
 			</div>
 			<div class="popup-btn btn">
 				<button>ОТПРАВИТЬ</button>
 			</div>
-		</div>
+		</form>
 	</div>
 
 
