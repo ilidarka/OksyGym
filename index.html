@@ -1192,14 +1192,16 @@
 				Оставьте отзыв о нашем клубе!
 			</div>
 			<div class="popup-field popup-name">
-				<input type="text" placeholder="Ваше имя" value="zxc" required name="user_name">
+				<input type="text" placeholder="Ваше имя" required name="user_name">
 			</div>
 			<div class="popup-field popup-comment">
 				<textarea placeholder="Ваше сообщение" required name="user_text"></textarea>
 			</div>
 			<div class="inputArea">
-				<label>Add Attachment:</label>
-				<input type="file" name="image">
+				<label for="inputFileId">
+					<span class="inputTitle">Прикрепить файл</span>
+				</label>
+				<input id="inputFileId" type="file" name="image" class="fileInput">
 			</div>
 			<div class="checkbox-wrapper">
 				<input type="checkbox" id="checkbox1" required value="">
