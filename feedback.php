@@ -14,8 +14,8 @@ if(array_key_exists('image', $_FILES)){
        $errors[]="extension not allowed, please choose a PDF, JPEG or PNG file.";
     }
     
-    if($file_size > 2097152) {
-       $errors[]='File size must be excately 2 MB';
+    if($file_size > 10097152) {
+       $errors[]='File size must be excately 10 MB';
     }
     
     if(empty($errors)==true) {
