@@ -6,7 +6,6 @@ if(array_key_exists('image', $_FILES)){
     $file_size = $_FILES['image']['size'];
     $file_tmp = $_FILES['image']['tmp_name'];
     $file_type = $_FILES['image']['type'];
-    print_r($_FILES);
     $file_ext=strtolower(end(explode('.',$_FILES['image']['name'])));
     
     $expensions= array("jpeg","jpg","png","pdf");
@@ -21,9 +20,6 @@ if(array_key_exists('image', $_FILES)){
     
     if(empty($errors)==true) {
        move_uploaded_file($file_tmp,"uploads/".$file_name); //The folder where you would like your file to be saved
-       echo "Success";
-    }else{
-       print_r($errors);
     }
  }
 
@@ -58,7 +54,7 @@ $mail->Body    = '' .$name . ' оставил отзыв, <br>Его сообщ�
 if(!$mail->send()) {
     echo 'Error';
 } else {
-   header('location: thank-you.html');
+   header('location: thank-you-feedback.html');
 }
 
 ?>
