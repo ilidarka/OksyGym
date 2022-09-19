@@ -1198,10 +1198,13 @@
 				<textarea placeholder="Ваше сообщение" required name="user_text"></textarea>
 			</div>
 			<div class="inputArea">
-				<label for="inputFileId">
+				<label for="inputFileId" class="inputFileLabel">
 					<span class="inputTitle">Прикрепить файл</span>
 				</label>
 				<input id="inputFileId" type="file" name="image" class="fileInput">
+				<div class="preview">
+					<span>Файл не выбран</span>
+				</div>
 			</div>
 			<div class="checkbox-wrapper">
 				<input type="checkbox" id="checkbox1" required value="">
@@ -1267,5 +1270,6 @@
 	<script src="js/main.js"></script>
 	<script src="js/socialspopupscript.js"></script>
 	<script src="./js/aboutUsSliderScript.js" defer></script>
+	<script src="./js/fileUploadScript.js" deger></script>
 </body>
 </html>
