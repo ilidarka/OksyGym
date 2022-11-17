@@ -48,8 +48,6 @@
 .left-container-text p{
     margin-bottom: 20px;
 }
-
-
 .media-container {
     margin-top: 50px;
     display: flex;
@@ -57,27 +55,17 @@
     color: #79046d;
     font-size: 20px;
     align-items: center;
-    
 }
 .media-container img{
     width: 35px;
     height: 35px;
     margin-top: 2px;
 }
-.media-left-container {
-    
-}
 .media-container-item {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 15px;
-}
-.media-last-container p {
-}
-.text {
-}
-.media-right-container {
 }
 a{
     text-decoration: none;
@@ -111,6 +99,9 @@ a{
         flex-direction: column;
         align-items: flex-start;
     }
+    .registerButton {
+        margin-top: 50px;
+    }
 }
 @media screen and (max-width:575px) {
     .media-container img{
@@ -119,7 +110,7 @@ a{
     }
     .media-container {
         gap: 15%; 
-        margin-top: 150px;
+        margin-top: 50px;
     }
     .large-picture {
         top: 20vh;
@@ -127,6 +118,9 @@ a{
     }
     .small-picture {
         left: -8vw;
+    }    
+    .registerButton {
+        margin-top: 150px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -139,7 +133,11 @@ a{
         padding: 0 10px;
     }
     .media-container {
-        margin-top: 150px;
+        margin-top: 50px;
+    }
+    .registerButton {
+        margin-top: 190px;
+        margin-left: 10vw;
     }
 }
 @media screen and (max-width: 1250px) {
