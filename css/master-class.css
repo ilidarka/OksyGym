@@ -17,6 +17,9 @@
 }
 .content-left-container{
     max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .content-right-container{
     width: 40%;
@@ -75,6 +78,14 @@ a{
     height: 70%;
     width: 100%;
 }
+.registerButton {
+    margin-top: 20px;
+    border-radius: 60px;
+    background: linear-gradient(to right, #7775E7, #C41DFF);
+}
+.registerButton a {
+    color: #fff !important;
+}
 @media screen and (max-width:800px){
     .content-container{
         flex-direction: column;
@@ -100,7 +111,7 @@ a{
         align-items: flex-start;
     }
     .registerButton {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width:575px) {
@@ -120,7 +131,7 @@ a{
         left: -8vw;
     }    
     .registerButton {
-        margin-top: 150px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -136,8 +147,7 @@ a{
         margin-top: 50px;
     }
     .registerButton {
-        margin-top: 190px;
-        margin-left: 10vw;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 1250px) {
