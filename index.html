@@ -40,6 +40,12 @@
 	<link rel="stylesheet" href="css/prices.css">
 	<link rel="stylesheet" href="css/socialspopup.css">
 	<link rel="stylesheet" href="./css/customStyle.css">
+	<link rel="stylesheet" href="./css/nouislider.css">
+    <link rel="stylesheet" href="./css/sliderStyle.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<script src="./js/nouislider.min.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+    <script src="./js/trainerSlider.js" defer></script>
 </head>
 <body class="main-body">
 	<div id="menu">
@@ -92,7 +98,8 @@
 							<li><a class="menu-stock" href="stock.html">Акции</a></li>
 							<li><a class="menu-stock" href="prices.html">Цены</a></li>
 						</ul>
-						<a style="color: #C41DFF;width: 60%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px; text-align: center;" href="https://yandex.ru/maps/-/CCURbYBlgB">Москва, Улица Крылатская владение 2 строение 5</a>	
+						<a style="color: #C41DFF;width: 60%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px; text-align: center;" href="https://yandex.ru/maps/-/CCURbYBlgB">Москва, Улица Крылатская владение 2 строение 5</a>
+                       <a style="color: #000000;width: 60%; display: flex; justify-content: flex-start; margin-top: 10px; margin-left: 27px; text-align: center;" href="macter_class.html">О мастер-классе</a>
 					</div>
 					<div class="header-info" style=" text-align: center;">
 						<div class="header-info_tel" style="display: flex;">
@@ -129,7 +136,7 @@
 			<div class="main-wrapper" style="margin-bottom: 120px;">
 				<div class="main-left">
 					<div class="main-title title wow animate__bounceInLeft animate__animated">
-						<h1>Идёт набор на 2022/2023 учебный год</h1>
+                      <h1>Идёт набор на 2022/2023 учебный год</h1>
 						<h1 style="margin-top: 15px;">Художественная гимнастика <br>для будущих победителей <br><span>by Oksy Mathews</span></h1>
 					</div>
 					<div class="main-btn btn animate__pulse wow animate__animated" >
@@ -267,16 +274,14 @@
 			<div class="time-title title">
 				<h2>Расписание</h2>
 				<br>
-				<br>
-				<br>
-				<h2>для старшей группы</h2>
+				<!-- <h2>для старшей группы</h2> -->
 			</div>
 
 			<div class="tableContainer">
 				<div class="table-wrapper">
 					<div class="table-row table-row--top">
 						<div class="table-item">
-							Вторник
+							Понедельник
 						</div>
 						<div class="table-item">
 							Среда
@@ -287,18 +292,18 @@
 					</div>
 					<div class="table-row table-row--bottom">
 						<div class="table-item">
-							15:30 - 17:00
+							19:00 - 20:00
 						</div>
 						<div class="table-item">
 							16:00 - 17:00
 						</div>
 						<div class="table-item">
-							15:30 - 17:00
+							16:00 - 17:00
 						</div>
 					</div>
 				</div>
 			</div>
-
+<!-- 
 			<br>
 			<br>
 			<br>
@@ -331,9 +336,11 @@
 					</div>
 				</div>
 			</div>
+--> 
 			<br>
 			<br>
 			<br>
+			<br>         
 			<div class="price-box" style="flex-wrap: wrap;">
 				<style>
 					.price-item {
@@ -378,6 +385,21 @@
 						}
 					}
 				</style>
+<!--				<div class="price-item animate__animated animate__bounce wow">
+					<div class="price-item_icon">
+						<img src="img/price-icon2.svg">
+					</div>
+					<div class="price-item_name">
+						Абонемент 12 занятий в месяц <br>(1,5 часа)
+					</div>
+					<div class="price-item_cost">
+						Старшая группа - 8000 ₽
+					</div>
+					<div class="price-item_btn btn">
+						<a href="#popup-wrapper2" class="popup-link">Оставить заявку</a>
+					</div>
+				</div>
+-->
 				<div class="price-item animate__animated animate__bounce wow" style="margin-top: 20px;">
 					<div class="price-item_icon">
 						<img src="img/price-icon2.svg">
@@ -573,12 +595,11 @@
 						</div>
 					</div>
 					<div class="slideBottom slideItem">
-						<img class="sliderImage" src="./img/aboutUsImage2.png">
+						<img class="sliderImage" src="./img/aboutUsImage3.png">
 						<div class="text">
-							<span>Виктория</span>
+							<span>Олеся Мхитарян</span>
 							<p>
-								Были на пробной бесплатной тренировке, дочке очень понравилось, да у меня впечатления хорошие. 
-								Будем ходить.
+								Хочу выразить огромную благодарность тренерам Оксане и Аиде за их профессионализм! За столь короткое время смогли найти подход к моей малышке и подготовить к соревнованиям, где она заняла 1 место! Спасибо Вам за ваш труд!
 							</p>
 						</div>
 					</div>
@@ -613,76 +634,123 @@
 				<a class="next" onclick="plusSlides(1)"><img src="./img/aboutUsSliderRight.png" alt="aboutUsSliderRight"></a>
 			</div>
 		</div>
-	</section>	
-	<section class="about-section about-section1" id="about-section">
-		<div class="container">
-			<div class="about-wrapper">
-				<div class="about-left about-left1">
-					<div class="about-title title">
-						<h2>Основатель клуба и тренер Катасонова Оксана Андреевна</h2>
-					</div>
-					<ul class="about-ul">
-						<li>Мастер Спорта России по художественной гимнастике</li>
-						<li>Cемикратная чемпионка Москвы в групповых упражнениях</li>
-						<li>Призёр Европы (Хорватия)</li>
-						<li>Участница соревнований в ОАЭ (Катар) </li>
-						<li>Участница Всероссийских  и международных турниров по художественной гимнастике</li>
-					</ul>
-					<div class="about-btn btn">
-						<a href="trainer.html">Подробнее</a>
-					</div>
-					<div class="about-left1_round">
-						<img src="img/about-left1_round.svg">
-					</div>
-				</div>
-				<div class="about-right">
-					<div class="about-img wow animate__animated animate__fadeIn">
-						<img src="img/about-img.png">
-						<div class="about-img_ring1">
-							<img src="img/about-ring1.svg">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</section>
-	<section class="about-section about-section2">
-		<div class="container">
-			<div class="about-center-shadow">
-				<!-- <img src="img/about-center-shadow"> -->
-			</div>
-			<div class="about-wrapper">
-				<div class="about-right">
-					<div class="about-img about-img2">
-						<img src="img/about-img2.png">
-						<div class="about-img_ring1 wow animate__animated animate__rotateIn">
-							<img src="img/about-ring1.svg">
+	
+
+	
+
+	<section class="trainersSlider about-section">
+		<div id="slider" class="slider_wrapper container">
+			<div class="slider">
+				<div class="swiper-container">
+					<div class="advantages-subtitle title">
+						<h2>наши тренеры</h2>
+					</div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="about-wrapper">
+								<div class="about-left about-left1">
+									<div class="about-title title">
+										<h2>Основатель клуба и тренер Катасонова Оксана Андреевна</h2>
+									</div>
+									<ul class="about-ul">
+										<li>Мастер Спорта России по художественной гимнастике</li>
+										<li>Cемикратная чемпионка Москвы в групповых упражнениях</li>
+										<li>Призёр Европы (Хорватия)</li>
+										<li>Участница соревнований в ОАЭ (Катар) </li>
+										<li>Участница Всероссийских  и международных турниров по художественной гимнастике</li>
+									</ul>
+									<div class="about-btn btn">
+										<a href="trainer.html">Подробнее</a>
+									</div>
+									<div class="about-left1_round">
+										<img src="img/about-left1_round.svg">
+									</div>
+								</div>
+								<div class="about-right">
+									<div class="about-img wow animate__animated animate__fadeIn">
+										<img src="img/about-img.png">
+										<div class="about-img_ring1">
+											<img src="img/about-ring1.svg">
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
+						<div class="swiper-slide">
+							<div class="about-wrapper">
+								<div class="about-right">
+									<div class="about-img about-img2">
+										<img src="img/about-img2.png">
+										<div class="about-img_ring1 wow animate__animated animate__rotateIn">
+											<img src="img/about-ring1.svg">
+										</div>
+									</div>
+								</div>
+								<div class="about-left">
+									<div class="about-title title">
+										<h2>Тренер <br>Муталибова Аида Гьякимовна</h2>
+									</div>
+									<ul class="about-ul">
+										<li>
+											Мастер Спорта России по художественной гимнастике
+										</li>
+										<li>
+											Призер Региональных и Всероссийских соревнований в индивидуальных и групповых упражнениях
+										</li>
+										<li>
+											Квалифицированный судья соревнований по художественной гимнастике (пройден курс и сдан экзамен в Центре Ирины Винер-Усмановой)
+										</li>
+										<li>
+											Пройден тренерский курс Л. Димитровой в Центре Ирины Винер Усмановой
+										</li>
+									</ul>
+									<div class="about-btn btn">
+										<a href="trainer.html">Подробнее</a>
+									</div>
+									<div class="about-left1_round">
+										<img src="img/about-left1_round.svg">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="about-wrapper">
+								<div class="about-left about-left1">
+									<div class="about-title title">
+										<h2>Тренет <br> Чернышова Наталия Витальевна</h2>
+									</div>
+									<ul class="about-ul">
+										<li>Мастер Спорта России по художественной гимнастике</li>
+										<li>Cемикратная чемпионка Москвы в групповых упражнениях</li>
+										<li>Призёр Европы (Хорватия)</li>
+										<li>Участница соревнований в ОАЭ (Катар) </li>
+										<li>Участница Всероссийских  и международных турниров по художественной гимнастике</li>
+									</ul>
+									<div class="about-btn btn">
+										<a href="trainer.html">Подробнее</a>
+									</div>
+									<div class="about-left1_round">
+										<img src="img/about-left1_round.svg">
+									</div>
+								</div>
+								<div class="about-right">
+									<div class="about-img wow animate__animated animate__fadeIn">
+										<img src="img/about3.png">
+										<div class="about-img_ring1">
+											<img src="img/about-ring1.svg">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> 
 					</div>
-				</div>
-				<div class="about-left">
-					<div class="about-title title">
-						<h2>Тренер <br>Муталибова Аида Гьякимовна</h2>
-					</div>
-					<ul class="about-ul">
-						<li>
-							Мастер Спорта России по художественной гимнастике
-						</li>
-						<li>
-							Призер Региональных и Всероссийских соревнований в индивидуальных и групповых упражнениях
-						</li>
-						<li>
-							Квалифицированный судья соревнований по художественной гимнастике (пройден курс и сдан экзамен в Центре Ирины Винер-Усмановой)
-						</li>
-						<li>
-							Пройден тренерский курс Л. Димитровой в Центре Ирины Винер Усмановой
-						</li>
-					</ul>
-					<div class="about-btn btn">
-						<a href="trainer.html">Подробнее</a>
-					</div>
-					<div class="about-left1_round">
-						<img src="img/about-left1_round.svg">
+					<div class="swiper-controll">
+						<div class="swiper-scrollbar"></div>
+						<div class="swiper-buttons">
+							<div class="swiper-button-prev"><img src="./img/aboutUsSliderLeft.png" alt=""></div>
+							<div class="swiper-button-next"><img src="./img/aboutUsSliderRight.png" alt=""></div>
+						</div>
 					</div>
 				</div>
 			</div>

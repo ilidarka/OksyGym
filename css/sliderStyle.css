@@ -1,0 +1,40 @@
+:root {
+    --swiper-navigation-color: #505ACC;
+}
+.slider {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.swiper-wrapper {
+    padding: 10px;
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+    border-radius: 2px;
+    height: 5px;
+    width: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-button-prev, .swiper-button-next, .swiper-scrollbar-horizontal {
+    position: unset !important;
+}
+.swiper-controll {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 90px;
+    flex-direction: row-reverse;
+    padding: 0 10px;
+}
+.swiper-buttons {
+    display: flex;
+    gap: 70px;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: unset !important;
+}
