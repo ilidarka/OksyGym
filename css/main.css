@@ -161,6 +161,7 @@ input[type=checkbox] {
 
 /* Кнопки */
 .btn a, .btn button {
+  margin-top: 10px;
   padding: 0;
   border-radius: 60px;
   color: #A93CF6;
@@ -761,11 +762,12 @@ header {
 
 .about-wrapper {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between; 
+  padding: 20px;
+}
 
 .about-left{
   max-width: 555px;
-  padding-top: 65px;
 }
 .about-title h2{
   font-size: 35px;

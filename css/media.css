@@ -22,7 +22,7 @@
     background: url(../img/about-bg3.png) no-repeat calc(100% - 8%) 40px !important;
   }
   .main-body .about-section{
-    background: url(../img/about-bg3.svg) no-repeat left top;
+    background: url(../img/about-bg3.svg) no-repeat left 135px;
   }
   .comments-bg1{
     left: 0;
@@ -151,7 +151,7 @@
     max-width: 350px;
   }
   .about-left{
-    margin-left: 50px;
+    margin-left: 80px;
   }
   .about-section_trainer2{
     padding-bottom: 30px !important;
@@ -292,7 +292,7 @@
     max-width: 400px;
   }
   .main-body .about-section{
-    background-position: -50px top;
+    background-position: 10px 135px;
   }
   .table-item{
     font-size: 15px;
@@ -1197,7 +1197,7 @@
     margin-bottom: 10px;
   }
   .main-body .about-section{
-    background-position: center bottom;
+    background-position: center 300px;
   }
   .about-left{
     margin-bottom: 80px;

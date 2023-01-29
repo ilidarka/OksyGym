@@ -25,10 +25,8 @@
 .swiper-controll {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: 50px;
-    gap: 90px;
-    flex-direction: row-reverse;
     padding: 0 10px;
 }
 .swiper-buttons {
@@ -37,4 +35,15 @@
 }
 .swiper-button-next::after, .swiper-button-prev::after {
     content: unset !important;
+}
+.trainersSlider .container {
+    max-width: 1300px;
+}
+.trainersSlider .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
+.trainersSlider .swiper-buttons img {
+    max-width: unset;
 }
