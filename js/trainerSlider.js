@@ -32,5 +32,8 @@ $swiperSelector.each(function(index) {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
       },
+      autoplay: {
+        delay: 3000,
+      },
    });
 });
