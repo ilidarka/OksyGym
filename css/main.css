@@ -797,8 +797,8 @@ header {
 
 .about-img_ring1 {
   position: absolute;
-  right: -140px;
-  bottom: -60px; }
+  right: -25px;
+  bottom: -630px; }
 
 .about-img_ring2 {
   position: absolute;
@@ -818,8 +818,8 @@ header {
 }
 .about-img2 .about-img_ring1{
   position: absolute;
-  left: -140px;
-  bottom: -90px;
+  left: 80px;
+  bottom: -200px;
 }
 .about-left1_round{
   position: absolute;
@@ -1075,7 +1075,7 @@ footer {
   z-index: 999;
 }
 .main-body .about-section{
-  background: url(../img/about-bg3.svg) no-repeat 200px 30px;
+  background: url(../img/about-bg3.svg) no-repeat 225px 0px;
   padding-top: 140px;
 }
 .main-body .about-section2 .about-left{
