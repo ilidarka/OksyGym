@@ -47,3 +47,6 @@
 .trainersSlider .swiper-buttons img {
     max-width: unset;
 }
+.about-right{
+    margin-top: -40px;
+}
