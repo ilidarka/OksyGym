@@ -1408,7 +1408,7 @@
       max-width: 100%; }
   .main-section {
     background: url(../img/basic-bg3.png) no-repeat center -120px;
-    height: 1070px;
+    height: 1180px;
     margin-top: -20px;
     padding-top: 45px; }
   .main-subtitle{
@@ -1641,7 +1641,7 @@
     margin-top: 0;
   }
   .club-text p{
-    font-size: 13px;
+    font-size: 16px;
   }
   .main-body .about-section{
     padding-top: 40px;
@@ -1714,7 +1714,7 @@
     width: 112px;
   }
   .comments-section .comments-text p{
-    font-size: 13px;
+    font-size: 16px;
   }
   .main-body .about-section2 .about-left{
     padding-top: 60px;
