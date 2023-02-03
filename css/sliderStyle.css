@@ -50,3 +50,11 @@
 .about-right{
     margin-top: -60px;
 }
+@media (max-width: 800px) {
+  .swiper-slide {
+      margin-top: 15px;
+  }
+  .about-left {
+  	margin-top: 15px;
+  }
+}

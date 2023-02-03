@@ -30,6 +30,9 @@
     text-align: center;
     line-height: 54px;
 }
+.readMore {
+	margin-top: 15px;
+}
 .custom-group-text p {
     display: flex;
     flex-direction: column;
