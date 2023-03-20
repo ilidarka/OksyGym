@@ -16,6 +16,7 @@
 .gallery-quad .gallery-item img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 @media (max-width: 574px) {
     .gallery-section1 {
