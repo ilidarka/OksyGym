@@ -1,0 +1,22 @@
+.stock-top {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #6B3E6F;
+}
+.stock-met {
+    margin-top: 68px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.stock-met span {
+    color: #F754E7;
+}
