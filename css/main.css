@@ -203,7 +203,9 @@ input[type=checkbox] {
 .text p {
   font-size: 18px;
   line-height: 150%; }
-
+.navBarContaienr {
+  width: 80%;
+}
 /* medias */
 @media screen and (max-width: 1210px) {
   .title h2 {
@@ -279,7 +281,7 @@ header {
 
 .header-info {
   text-align: right;
-  margin-left: 100px; }
+}
 
 .header-info_tel {
   margin-bottom: 13px; }
@@ -308,7 +310,9 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between; 
+  width: 100%;
+}
 
 .header-burger {
   display: none; }

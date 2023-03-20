@@ -43,6 +43,12 @@
     max-width: unset;
     width: 409px;
 }
+.stock-bottom-text {
+    margin-top: 0;
+}
+.stock-btn {
+    margin-bottom: 90px;
+}
 @media (max-width: 1250px) {
     .stock-img img {
         width: 100% !important;
@@ -53,11 +59,20 @@
         max-width: unset;
         padding: 0 20px;
     }
+    .contacts-section .container {
+        padding: 0;
+    }
     .stock-top {
         font-size: 35px;
         text-align: center;
     }
     .stock-section {
         margin: 20px 0;
+    }
+    .stock-bottom-text {
+        margin-top: 20px;
+    }
+    .stock-btn {
+        margin-bottom: 40px;
     }
 }

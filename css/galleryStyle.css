@@ -1,3 +1,6 @@
+.gallery-section {
+    padding-top: 0px;
+}
 .gallery-section button {
     bottom: -60px;
 }
@@ -31,5 +34,8 @@
     }
     .gallery-quad .gallery-item {
         width: 29%;
+    }
+    .contacts-section .container {
+        padding: 0;
     }
 }
