@@ -1,3 +1,6 @@
+.gallery-section button {
+    bottom: -60px;
+}
 .gallery-quad {
     width: 100%;
     display: flex;
@@ -6,10 +9,26 @@
 } 
 .gallery-quad .gallery-item {
     width: 30%;
+    height: 50%;
     margin-left: 0;
     margin-bottom: 0;
 }
 .gallery-quad .gallery-item img {
-    height: 250px;
-    width: 350px;
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 574px) {
+    .gallery-section1 {
+        display: block;
+    }
+    .container {
+        max-width: unset;
+        padding: 0 20px;
+    }
+    .gallery-box {
+        width: 100%;
+    }
+    .gallery-quad .gallery-item {
+        width: 29%;
+    }
 }
