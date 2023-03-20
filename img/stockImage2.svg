@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 409 403" width="409" height="403">
+	<title>stockImage2-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m6.09 174.2c-6.7-25.92 4.05-53.2 26.63-67.59l147.35-93.87c22.58-14.39 51.85-12.59 72.5 4.43l134.82 111.14c20.66 17.02 28 45.42 18.19 70.32l-64.04 162.56c-9.81 24.91-34.54 40.67-61.26 39.03l-174.39-10.67c-26.72-1.63-49.35-20.28-56.05-46.2z"/>
+		</clipPath>
+	</defs>
+	<style>
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" d="m-22.5-18.2l411.2-54.1 72.2 548.2-411.2 54.2z"/>
+		</g>
+	</g>
+</svg>
